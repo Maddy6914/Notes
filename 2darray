@@ -1,0 +1,14 @@
+import java.util.*;
+public class 2darray{
+    public static void main(String a[])
+    {
+        int [][] arr=new int[3][];
+        scanner s = new Scanner(system.in);
+        for (int[]n : arr)
+         for (int i=0;i<n.length;i++)
+          n[i]=s.nextInt();
+        System.ou.println(Arrays.toString(n[0]));
+        s.close();
+
+    }
+}
